@@ -1,22 +1,22 @@
-import { useState } from "react";
-import { Button, Stack, Title, Divider, Container } from "@mantine/core";
-import { v4 as uuidv4 } from "uuid";
+// import { useState } from "react";
+import { Button, Stack, Title, Divider } from "@mantine/core";
+// import { v4 as uuidv4 } from "uuid";
 import Footer from "../components/Footer.tsx";
-import { TextInput } from '@mantine/core';
-import { IconAt } from '@tabler/icons-react';
+// import { TextInput } from '@mantine/core';
+// import { IconAt } from '@tabler/icons-react';
 
-type Expense = {
-  id: string;
-  name: string;
-  amount: number | string;
-  category: string;
-};
+// type Expense = {
+//   id: string;
+//   name: string;
+//   amount: number | string;
+//   category: string;
+// };
 
 export default function ExpenseTracker() {
-  const [opened, setOpened] = useState(false);
-  const [expenses, setExpenses] = useState<Expense[]>([]);
-  const categories = ["Food", "Transport", "Entertainment"];
-  const icon = <IconAt size={16} />;
+  // const [opened, setOpened] = useState(false);
+  // const [expenses, setExpenses] = useState<Expense[]>([]);
+  // const categories = ["Food", "Transport", "Entertainment"];
+  // const icon = <IconAt size={16} />;
 
   return (
     <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
